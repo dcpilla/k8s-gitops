@@ -2,7 +2,6 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: role-developer-namespace-access
-  namespace: app-test
 rules:
   - verbs:
       - get
