@@ -1,0 +1,8 @@
+- name: teste playbook awx
+  hosts: localhost
+  connection: local
+
+  tasks:
+    - name: Print a message
+      ansible.builtin.debug:
+        msg: 'Logging in as {{ tower_user_name }}'
